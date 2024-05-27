@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add this to your head section -->
+    
+    <title>VTTS Group</title>
+</head>
+
+<body>
+    <div class="background-image1">
+        <img id="logo" src="uploads/logo.jpg" alt="VTTS Logo">
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+
+        <ul id="menu" class="initial-color">
+            <li><a href="index.html">HOME</a></li>
+            <li class="submenu">
+                <a href="#">ALL SERVICES</a>
+                <ul class="submenu-content">
+                    <li><a href="inspection.html">Inspection & Testing</a></li>
+                    <li><a href="supply.html">Supply & Installation</a></li>
+                    <li><a href="training.html">Training & Consultancy</a></li>
+                    <li><a href="design.html">Design & Details</a></li>
+                    <li><a href="flange.html">Flange Facing & Bolting</a></li>
+                    <li><a href="calibration.html">Calibration & Manpower Supply</a></li>
+                </ul>
+            </li>
+            <li><a href="accreditation.html">ACCREDITATION</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="careers.html">CAREERS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            console.log('Toggle menu function executed');
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+     </script>
+</body>
+
+</html>
