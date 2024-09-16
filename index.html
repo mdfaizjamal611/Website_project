@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add this to your head section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <title>VTTS Group</title>
+</head>
+
+<body>
+    <div class="background-image" id="backgroundImage">
+        <img id="logo" src="uploads/logo.jpg" alt="VTTS Logo">
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul id="menu" class="initial-color" >
+            <li><a href="index.html">HOME</a></li>
+            <li class="submenu">
+                <a href="#">ALL SERVICES</a>
+                <ul class="submenu-content">
+                    <li><a href="inspection.html">Inspection & Testing</a></li>
+                    <li><a href="supply.html">Supply & Installation</a></li>
+                    <li><a href="training.html">Training & Consultancy</a></li>
+                    <li><a href="design.html">Design & Detailing</a></li>
+                    <li><a href="flange.html">Flange Facing & Bolting</a></li>
+                    <li><a href="calibration.html">Calibration & Manpower Supply</a></li>
+                </ul>
+            </li>
+            <li><a href="accreditation.html">ACCREDITATION</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="careers.html">CAREERS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <script src="script.js"></script>
+        <div class="centered-text">
+            <h1 class="company-name">VTTS GROUP</h1>
+            <h3 class="company-name1">ALL ENGINEERING SOLUTIONS UNDER ONE ROOF!!</h3>
+            <p class="additional-text">
+                VTTS Group is a leading service provider company in the field of Third Party Inspection, Heat Treatment,
+                Design & Non-destructive testing (NDT) in UAE & India. VTTS International was founded in 2014. We have
+                approval from almost leading Third-party inspection agencies, Government authorities, Regulatory bodies
+                in the field of Testing with help of National and International codes and standards. We, Family of
+                engineers, are bound to serve customers with our expertise in technical testing and allied services. We
+                provide training in several industries for Welding, Coating and NDT in UAE & India. We focus on the
+                imperative needs of our customer. We have proven track record & have the ability to deliver service on
+                time.
+            </p>
+            <button id="viewMoreButton" onclick="toggleVisibility()">View More</button>
+        </div>
+    </div>
+    <div class="services-section">
+        <h1 class="services-heading">OUR SERVICES</h1>
+
+        <!-- Add the tabs container -->
+        <div class="tabs-container">
+            <a href="inspection.html" class="tab inspection-heading">Inspection & Testing
+                <div class="inspection-content">
+                    <p>
+                        ❖ Third Party Inspection (Welding/Painting/Instrumentation/ Electrical/Civil) & Inspector Supply<br>
+
+                        ❖ Non-Destructive Testing (RT, MT, PT, UT, PAUT, TOFD,)<br>
+
+                        ❖ PMI, Hardness, UT Thickness Gauging, Ferrite Test, Holiday Spark Testing: Eddy Current Test, Hydro & Leak Testi<br>
+
+                        ❖ Heat Treatment (PWHT, Pre heating/Post heating)<br>
+
+                        ❖ NDT Level III Services for ASME & API Certification<br>
+
+                        ❖ Welder & Welding Procedure (WPS/PQR) Qualification<br>
+                    </p>
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+            <a href="supply.html" class="tab inspection-heading">Supply & Installation
+                <div class="inspection-content">
+                    <p>
+                        ❖ Installation, Commissioning of Field Instrumentation, Electrical/LV/MV Panel, Metering Skids.<br>
+
+                        ❖ Supply of Painting/Blasting/NDE/Welding Consumables, Hand tools, Torque Wrenches, Field instrumentation<br>
+
+                        ❖ Pressure Gauges, Control System, Analyzers, Cables, VFD. Vibration & Condition Monitoring Devices, Power Management & control system & Other Electrical<br>
+
+                        ❖ Installation & Fabrication of Tanks, Piping & Structures
+                    </p>
+                    
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+        </div>
+        <div class="tabs-container second-row">
+            <a href="training.html" class="tab inspection-heading">Training & Consultancy
+                <div class="inspection-content">
+                    <!-- Content for Tab 3 goes here. -->
+                    <p>
+                        ❖ NDT Personnel Training & Certification as per SNT-TC-1A / ISO 9712 Awareness Course in ISO 9001; 14001 & 45001<br>
+
+                        ❖ Internal Auditors in ISO 9001, 14001 & 45001<br>
+
+                        ❖ Guided Tour of ASME Codes<br>
+
+                        ❖ Welders & Welding Operators Training Welding Inspectors' Training Course<br>
+
+                        ❖ Awareness Course in Non-Destructive Testing<br>
+
+                        ❖ NDT for Managers and NDT for Designers<br>
+
+                        ❖ Quality Control Managers' Certification Program<br>
+
+                        ❖ CSWIP / AWS / BGAS/ NACE Preparatory Program<br>
+
+                        ❖ Fabrication Inspectors' Training Course<br>
+
+                        ❖ Safety in Workplace i.e. First Aid, Scaffolding, Work at height etc.<br>
+
+                        ❖ Painting / Surface Coating<br>
+
+                        ❖ Welding Awareness Program<br>
+                    </p>
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+            <a href="design.html" class="tab inspection-heading">Design & Detailing
+                <div class="inspection-content">
+                    <p>
+                        ❖ Skid based EPC projects<br>
+
+                        ❖ Design & Detailing of Pressure Vessel, Boiler, Piping & Structure<br>
+
+                        ❖ Piping Prefabrication Spooling Activities<br>
+
+                        ❖ Piping Construction Management Services Data Base<br>
+
+                        ❖ Piping Test Pack Preparation & Handling<br>
+                    </p>
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+        </div>
+        <div class="tab-container third-row">
+            <a href="flange.html" class="tab inspection-heading">Flange Facing & Bolting
+                <div class="inspection-content">
+                    <!-- Content for Tab 5 goes here. -->
+                    <p>
+                        ❖ Tensioning Solutions<br>
+
+                        ❖ Onsite Flange Facing Solutions
+                    </p>
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+            <a href="calibration.html" class="tab inspection-heading">Calibration & Manpower Supply
+                <div class="inspection-content">
+                    <!-- Content for Tab 6 goes here. -->
+                    <p>
+                    Manpower Supply :<br>
+                       ❖ Certified NDT Level I, II & III Personnel supply.<br>
+                       ❖ Certified Welding Inspectors/ Piping Inspectors supply<br>
+                       ❖ Electrical & Instrumentation Personnel<br>
+                       ❖ Welders/ Fabricators/ Painters<br>
+                       ❖ Mechanical / E&I Helpers<br>
+                    Recruitment :<br>
+                       ❖ Welders/ Welding Operators<br>
+                       ❖ Fabricators & Fitters & Riggers<br>
+                       ❖ Electricians & Mechanics<br>
+                       ❖ Mason & Plumber<br>
+                       ❖ Welding/ NDT / Piping/ PMI Inspectors<br>
+                       ❖ Welding / Piping Supervisors<br>
+                       ❖ Administrative/ Accounts personnel<br>
+                       ❖ Department Managers<br>
+                    </p>
+                </div>
+                <button class="read-more-button">Read More</button>
+            </a>
+        </div>
+    </div>
+    
+    <div class="header">
+        <h1>Our Vision and Mission</h1>
+    </div>
+    <div class="wrapper">
+        <div class="black-square">
+            <div class="content-in-black-square">
+                <p>
+                    Our vision is to be a premier full service
+                    Inspection, Non Destructive Testing & Design
+                    Services with a clear focus on innovative
+                    technologies and Customer Satisfaction.
+                </p>
+                <p>
+                    Our mission is to utilize cutting edge
+                    technologies in providing reliable, efficient and
+                    affordable Inspection, Non Destructive Testing &
+                    Design Services.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <img src="uploads\download8.jpeg" alt="Image Description">
+            <!-- Additional content goes here if needed -->
+        </div>
+    </div>
+
+    <div class="why-choose-us">
+        Our Main Focus
+    </div>
+    <div class="custom-box">
+        <div class="subheading right-subheading">
+            <h3>Customer Satisfaction</h3>
+            <p><br>AT VTTS, we strive hard to achieve complete Customer
+                satisfaction by providing reliable Inspection, Testing & Design
+                Services. We endeavor to achieve this while complying with
+                the requirements of Quality Management Systems. Our
+                Services boasts of superior Quality and Reliability to exceed
+                this Customer’s expectations.</p>
+          </div>
+      
+          <div class="subheading center-subheading">
+            <h3>Operational Excellence</h3>
+            <p><br>We truly understand our Customers' ever-increasing demands
+                for productivity, quality and safety. In the process, we train
+                our Personnel through regular training modules to meet
+                Customers' expectation. At VTTS, we believe it’s an essential
+                requirement for enhancing our operational excellence.</p>
+          </div>
+      
+          <div class="subheading left-subheading">
+            <h3>Technology & Applications</h3>
+            <p><br>In this fact changing world, the need to remain abreast with
+                new technologies is vital. AT VTTS, we understand the
+                importance of developing technologies which leverage us in
+                providing our Customers timely and superior quality and
+                reliable services. On a regular basis, we study innovative for
+                their effective needs and utilize them for the benefit of our customer</p>
+          </div>
+    </div>
+
+    <div class="why-choose-us">
+        <p>Why Choose Us?</p>
+    </div>
+    
+    <!-- Add this section after the "Why Choose Us?" heading in your HTML file -->
+    <div class="custom-tabs">
+        <div class="custom-tab">
+            <div class="tab-content">
+                <img src="uploads/why1.png" alt="Tab 1 Image">
+                <p>Powerful Features</p>
+            </div>
+        </div>
+        <div class="custom-tab">
+            <div class="tab-content">
+                <img src="uploads/why2.png" alt="Tab 2 Image">
+                <p>Totaly Optimised</p>
+            </div>
+        </div>
+        <div class="custom-tab">
+            <div class="tab-content">
+                <img src="uploads/why3.png" alt="Tab 3 Image">
+                <p>Worldwide Support</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add this section after the custom tabs in your HTML file -->
+<div class="group-in-numbers">
+    <h2 class="big-heading">VTTS Group in Numbers</h2>
+    <div class="black-rectangle">
+        <div class="block">
+            <img src="uploads/download5.png" alt="Suit Bag Logo" class="logo-image">  
+            <p class="counter">500+</p>
+            <p class="satisfaction-text">Client Satisfaction</p>     
+        </div>
+        <div class="block">
+            <img src="uploads/download6.jpeg" alt="Second Logo" class="second-logo-image">
+            <p class="counter second-counter">50+</p>
+            <p class="satisfaction-text1">Location</p>
+        </div>
+        <div class="block">
+            <img src="uploads/download7.png" alt="Third Logo" class="third-logo-image">
+            <p class="counter third-counter">200+</p>
+            <p class="satisfaction-text1">Projects</p>
+        </div>
+    </div>
+    
+<div class="why-choose-us">
+    <p>Contact Us</p>
+</div>
+<div id="map-container">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722544.7145794504!2d51.30577849130773!3d24.33612489579605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e48dfb1ab12bd%3A0x33d32f56c0080aa7!2sUnited%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1701859129860!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+<!-- Update the contact section in your HTML -->
+<div class="contact-section">
+    <div class="contact-item">
+        <a href="https://wa.me/1234567890" target="_blank">
+            <i class="fab fa-whatsapp" style="color: #25d366;"></i>
+        </a>
+    </div>
+    <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <p class="contact-text">+971-561704619</p>
+    </div>
+    <div class="contact-item">
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <i class="fab fa-facebook" style="color: #1877f2;"></i>
+        </a>
+    </div>
+    <div class="contact-item">
+        <a href="#" target="_blank">
+            <i class="fab fa-linkedin" style="color: #0a66c2;"></i>
+        </a>
+    </div>
+    <div class="contact-item">
+        <a href="https://www.instagram.com/yourprofile" target="_blank">
+            <i class="fab fa-instagram" style="color: #833ab4;"></i>
+        </a>
+    </div>
+</div>
+<p class="contact-text">UAE Box No. 51144, Abu Dhabi United Arab Emirates and India 204, Sector-4, Gurgaon, Haryana, India</p>
+<p class="contact-text">We are looking forward to associate with you, We assure you our best services all the time!</p>
+<div class="line"></div>
+<div class="red-line"></div>
+<div id="preloadContainer">
+    <!-- Include hidden images for preloading -->
+    <img src="uploads/lom.jpg" alt="Preload">
+    <img src="uploads/zq-lee-DcyL0IoCY0A-unsplash.jpg" alt="Preload">
+    <img src="uploads/pexels-loïc-manegarium-3855962.jpg" alt="Preload">
+    <img src="uploads/manpower.jfif" alt="Preload">
+    <img src="uploads/back.jpg" alt="Preload">
+    <img src="uploads/download0.jpg" alt="Preload">
+    <img src="uploads/images1.webp" alt="Preload">
+</div>
+    <script>
+
+        function toggleMenu() {
+            console.log('Toggle menu function executed');
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+        
+        var menu = document.getElementById('menu');
+        var initialOffset = document.querySelector('.background-image').offsetHeight;
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > initialOffset) {
+                menu.classList.remove('initial-color');
+            } else {
+                menu.classList.add('initial-color');
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var submenuItems = document.querySelectorAll('.submenu');
+    
+            submenuItems.forEach(function (item) {
+                item.addEventListener('click', function (event) {
+                    event.stopPropagation(); // Prevent the click from closing the submenu
+                });
+            });
+        });
+        
+        
+
+        function toggleVisibility() {
+            var additionalText = document.querySelector('.additional-text');
+            var viewMoreButton = document.getElementById('viewMoreButton');
+
+            additionalText.classList.toggle('expanded');
+            if (additionalText.classList.contains('expanded')) {
+                viewMoreButton.textContent = 'View Less';
+            } else {
+                viewMoreButton.textContent = 'View More';
+            }
+        }
+
+        // Change background image every 3 seconds
+        var backgroundImages = [
+        'uploads/lom.jpg',
+        'uploads/zq-lee-DcyL0IoCY0A-unsplash.jpg',
+        'uploads/pexels-loïc-manegarium-3855962.jpg',
+        'uploads/manpower.jfif',
+        'uploads/back.jpg',
+        'uploads/download0.jpg',
+        'uploads/images1.webp'
+    ];
+
+    var currentImageIndex = 0;
+    var backgroundImage = document.getElementById('backgroundImage');
+    var preloadContainer = document.getElementById('preloadContainer');
+
+    // Function to preload images
+    function preloadImages() {
+        for (var i = 0; i < backgroundImages.length; i++) {
+            var img = new Image();
+            img.src = backgroundImages[i];
+            preloadContainer.appendChild(img);
+        }
+    }
+
+    // Function to change background image
+    function changeBackgroundImage() {
+        currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+        backgroundImage.style.backgroundImage = 'url(' + backgroundImages[currentImageIndex] + ')';
+    }
+
+    // Preload images before starting the interval
+    preloadImages();
+
+    // Change background image every 2 seconds
+    setInterval(changeBackgroundImage, 2000);
+        
+        var counterElement = document.querySelector('.counter');
+    var blockElement = document.querySelector('.block');
+
+    var totalScrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var isCounting = false;
+
+    function updateCounter() {
+        var blockTop = blockElement.getBoundingClientRect().top;
+        
+        // Check if the block is in the viewport
+        if (blockTop < window.innerHeight && !isCounting) {
+            isCounting = true;
+
+            // Start counting from 0 to 500
+            var count = 0;
+            var interval = setInterval(function () {
+                counterElement.textContent = count + '+';
+                count++;
+                if (count > 500) {
+                    clearInterval(interval);
+                }
+            }, 5); // Adjust the interval for the counting speed
+        }
+    }
+    window.addEventListener('scroll', updateCounter);
+
+    var secondCounterElement = document.querySelector('.second-counter');
+    var secondBlockElement = document.querySelectorAll('.block')[1];
+    
+    var isSecondCounterCounting = false;
+    
+    function updateSecondCounter() {
+        var secondBlockTop = secondBlockElement.getBoundingClientRect().top;
+    
+        // Check if the second block is in the viewport
+        if (secondBlockTop < window.innerHeight && !isSecondCounterCounting) {
+            isSecondCounterCounting = true;
+    
+            // Start counting for the second block from 0 to 105
+            var count = 0;
+            var interval = setInterval(function () {
+                secondCounterElement.textContent = count + '+';
+                count++;
+                if (count > 50) {
+                    clearInterval(interval);
+                }
+            }, 5); // Adjust the interval for the counting speed
+        }
+    }
+    
+    window.addEventListener('scroll', updateSecondCounter);
+    var thirdCounterElement = document.querySelector('.third-counter');
+var thirdTextElement = document.querySelector('.third-text');
+var thirdBlockElement = document.querySelectorAll('.block')[2];
+
+var isThirdCounterCounting = false;
+
+function updateThirdCounter() {
+    var thirdBlockTop = thirdBlockElement.getBoundingClientRect().top;
+
+    // Check if the third block is in the viewport
+    if (thirdBlockTop < window.innerHeight && !isThirdCounterCounting) {
+        isThirdCounterCounting = true;
+
+        // Start counting for the third block from 0 to 100 (or your desired number)
+        var count = 0;
+        var interval = setInterval(function () {
+            thirdCounterElement.textContent = count + '+';
+            count++;
+            if (count > 200) { // Adjust the end count as needed
+                clearInterval(interval);
+            }
+        }, 5); // Adjust the interval for the counting speed
+
+        // Display the additional text for the third block
+        thirdTextElement.style.opacity = 1;
+    }
+}
+
+window.addEventListener('scroll', updateThirdCounter);
+
+    
+    </script>
+
+</body>
+
+</html>
